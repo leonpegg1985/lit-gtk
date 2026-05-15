@@ -1,0 +1,6 @@
+{
+  "name": "GTK 4 Web Toolkit",
+  "description": "A Lit-based Web Component library mimicking the GTK 4 (Adwaita) design system.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

@@ -1,0 +1,19 @@
+{
+  "name": "@lit-gtk-examples/gtk-demo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port=3000 --host=0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@lit-gtk/library": "*",
+    "lit": "^3.3.3"
+  },
+  "devDependencies": {
+    "typescript": "~5.8.2",
+    "vite": "^6.2.3"
+  }
+}

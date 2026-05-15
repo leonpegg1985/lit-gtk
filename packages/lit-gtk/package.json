@@ -1,0 +1,31 @@
+{
+  "name": "@lit-gtk/library",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "scripts": {
+    "build": "vite build",
+    "lint": "tsc --noEmit",
+    "docs": "typedoc --entryPointStrategy expand ./src --out docs"
+  },
+  "peerDependencies": {
+    "lit": "^3.0.0"
+  },
+  "dependencies": {
+    "lit": "^3.3.3"
+  },
+  "devDependencies": {
+    "typescript": "~5.8.2",
+    "vite": "^6.2.3",
+    "typedoc": "^0.28.19",
+    "vite-plugin-dts": "^4.5.0"
+  }
+}
